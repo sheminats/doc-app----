@@ -98,10 +98,17 @@ const [docsData,setDocsData]=useState([]);
             <div className='grid-main '>
               {docsData.map((doc)=>{
                 return(
-                    <div className='grid-child' onClick={()=>getId(doc.id)}><EditIcon style={{ color: "black" ,marginTop:"10px"}} className='edit'/>
+                    <div className='grid-child' onClick={()=>getId(doc.id)}>
                     <p className='title'>{doc.title}</p>
+                    <div className='blah'>
                     <DeleteIcon style={{ color: "red" }}onClick={()=>deleteDocument(doc.id)}  className='delete'/>
-                  <div className='para' dangerouslySetInnerHTML={{__html:doc.docsDesc}}/>
+                    </div>
+                    <div className='bli'>
+                    <EditIcon style={{ color: "black" ,marginTop:"10px"}} className='edit'/>
+                 </div>
+                 <div className='dingi'>
+                  <div dangerouslySetInnerHTML={{__html:doc.docsDesc}}/>
+                    </div>
                     </div>
                 )
               })}

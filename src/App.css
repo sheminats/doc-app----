@@ -48,6 +48,7 @@ margin-top: 50px;
   font-size: larger;
   font-weight: 400;
   margin-top: -5px;
+  padding: -10px;
  }
  .grid-main{
   display: grid;
@@ -59,7 +60,8 @@ margin-top: 50px;
 }
 
 .grid-child{
-  padding: 20px;
+  padding: 30px;
+  padding-left: 10px;
   width: 300px;
      background-color: rgb(133, 188, 255);
   cursor: pointer;
@@ -106,41 +108,42 @@ margin-top: 50px;
 .css-i4bv87-MuiSvgIcon-root-path{
   margin-left: 300px;
 }
+.blah{
+  margin-top: -54px;
+  margin-left: -2px;
+  margin-bottom: 10px;
 
+}
+.bli{
+  margin-top: -30px;
+  margin-left: 38px;
+}
+.dingi{
+  margin-top: 50px;
+  font-size: larger;
+  font-weight: 400;
+}
 
 
 @media screen and (max-width:800px){
   h1{
-    margin-left: -31px;
-    padding-left: 39px;
+    margin-left: 15px;
+    padding-left: 84px;
   }
   .add-docs {
-    margin-left: -5px;
+    margin-left: 99px;
     width:53%;
     height:53px;
     padding: -20px;
     font-size: medium;
 
   }
-.grid-child{
-  width:80%;
-  display: grid;
-  justify-content: space-between;
-  padding: -20px;
-  margin-left: 10px;
-}
-.grid-main{
-grid-template-columns: subgrid;
-}
-.css-zf3i41{
-  margin-top: -12%;
+  .grid-main{
+    grid-template-columns:subgrid;
 
-}
+  }
+  .grid-child{
+    margin-left: 74px;
 
-.editDocs-inner{
-  width: 334px;
-}
-p{
-  padding: 12px;
-}
+  }
 }
