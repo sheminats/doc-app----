@@ -24,16 +24,16 @@ export default function EditDocs({database}) {
             updateDoc(document, {
                 docsDesc: docsDesc
             })
-                .then(() => {
-                    toast.success('Data Saved', {
-                        autoClose: 2000
-                    })
-                })
-                .catch(() => {
-                    toast.error('Cannot Save Data', {
-                        autoClose: 2000
-                    })
-                })
+                // .then(() => {
+                //     toast.success('Data Saved', {
+                //         autoClose: 2000
+                //     })
+                // })
+                // .catch(() => {
+                //     toast.error('Cannot Save Data', {
+                //         autoClose: 2000
+                //     })
+                // })
         },1500)
         return () => clearTimeout(updateDocsData)
     }, [docsDesc])
