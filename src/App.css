@@ -113,24 +113,23 @@ margin-top: 50px;
   h1{
     margin-left: -31px;
     padding-left: 39px;
-    text-align: center;
   }
   .add-docs {
     margin-left: -5px;
     width:53%;
+    height:53px;
     padding: -20px;
     font-size: medium;
 
   }
 .grid-child{
-  width:300px;
+  width:80%;
   display: grid;
   justify-content: space-between;
   padding: -20px;
   margin-left: 10px;
 }
 .grid-main{
-  margin-left: 10px;
 grid-template-columns: subgrid;
 }
 .css-zf3i41{
