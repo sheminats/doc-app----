@@ -118,13 +118,12 @@ margin-top: 50px;
   .add-docs {
     margin-left: -5px;
     width:53%;
-    height:53px;
     padding: -20px;
     font-size: medium;
 
   }
 .grid-child{
-  width:80%;
+  width:300px;
   display: grid;
   justify-content: space-between;
   padding: -20px;
